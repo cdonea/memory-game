@@ -1,0 +1,22 @@
+.tile {
+    height: 100px;
+    width: 100px;
+    border: 10px solid black;
+    cursor: pointer;
+}
+.row {
+    display: flex;
+}
+.yellow {
+    background: yellow;
+}
+
+.red {
+    background: red;
+}
+.blue {
+    background: blue;
+}
+.green {
+    background: green;
+}
