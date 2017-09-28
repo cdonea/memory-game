@@ -1,10 +1,26 @@
 <div class="game-grid">
    <div class="row">
-        <div class="yellow tile" (click)="getTileColor(0)"></div>
-        <div class="red tile" (click)="getTileColor(1)"></div>
+        <div 
+            class="yellow tile" 
+            ngClass="getTileActive(0)" 
+            (click)="getTileColor(0)">
+        </div>
+        <div 
+            class="red tile" 
+            ngClass="getTileActive(1)" 
+            (click)="getTileColor(1)">
+        </div>
    </div>
     <div class="row">
-            <div class="blue tile" (click)="getTileColor(2)"></div>
-            <div class="green tile" (click)="getTileColor(3)"></div>
+            <div 
+                class="blue tile" 
+                ngClass="getTileActive(2)" 
+                (click)="getTileColor(2)">
+            </div>
+            <div 
+                class="green tile" 
+                (click)="getTileColor(3)"
+                ngClass="getTileActive(3)">
+            </div>
     </div>
 </div>

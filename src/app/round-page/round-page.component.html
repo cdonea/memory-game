@@ -2,14 +2,9 @@
         <!-- *ngIf="gameStarted"  -->
     <div class="round-page">
         <h1>Round {{round}}</h1>
-        <div class="round-container"
-        (tileUpdated)="pushAnswer($event)">
-            <game-grid></game-grid>
+        <div 
+            class="round-container">
+            <game-grid (tileUpdated)="pushAnswer($event)"></game-grid>
         </div>
     </div>
-
-    <input 
-        type="button" 
-        value="Start Game"
-        (click)="startGame()">
 </div>

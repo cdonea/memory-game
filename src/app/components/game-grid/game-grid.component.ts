@@ -16,5 +16,11 @@ export class GameGridComponent {
     public getTileColor(order: number) {
         this.tileUpdated.emit(order);
     }
+
+    public lightTiles() {
+        setTimeout(() => {
+            
+        }, 3000);
+    }
 }
 

@@ -1,9 +1,19 @@
+.game-grid {
+    background: black;
+    width: 240px;
+}
+
 .tile {
     height: 100px;
     width: 100px;
     border: 10px solid black;
     cursor: pointer;
 }
+
+.tile.active {
+    opacity: 0.5;
+}
+
 .row {
     display: flex;
 }

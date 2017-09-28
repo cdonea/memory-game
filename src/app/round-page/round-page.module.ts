@@ -6,14 +6,11 @@ import { GameGridModule } from '../components/game-grid';
 
 @NgModule({
     imports: [
-        GameGridModule,],
-    declarations: [
-        RoundPageComponent
+        GameGridModule,
     ],
-    providers: [RoundPageService],
-    exports: [
-        RoundPageComponent
-    ]
+    providers: [
+        RoundPageService
+    ],
 })
 
 export class RoundPageModule { }
